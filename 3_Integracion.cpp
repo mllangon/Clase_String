@@ -9,7 +9,7 @@ int main() {
     cout<< "Introduce lla segunda parte de la frase: ";
     getline(cin, cadena2);
 
-    string cadenaConcatenada = cadena1 + cadena2;
+    string cadenaConcatenada = cadena1 +" "+ cadena2;
     cout<< " la frase la completo es: " << cadenaConcatenada << endl;
     return 0;
 }

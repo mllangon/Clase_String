@@ -2,7 +2,9 @@
 #include<string>
 
 int main(){
-    std::string frase = "Buenos dias, me llamo Mario";
-    std::cout << frase << std::endl;
+    std::string frase;
+    std::cout << "Introduce una frase: ";
+    std::getline(std::cin, frase);
+    std::cout << "La frase introducida es: " << frase << std::endl;
     return 0;
 }
